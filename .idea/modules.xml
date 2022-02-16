@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/account-holder-service/account.iml" filepath="$PROJECT_DIR$/account-holder-service/account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/account/account-holder-service.iml" filepath="$PROJECT_DIR$/account/account-holder-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/account-service/account-service.iml" filepath="$PROJECT_DIR$/account-service/account-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/twitapp.iml" filepath="$PROJECT_DIR$/twitapp.iml" />
     </modules>
