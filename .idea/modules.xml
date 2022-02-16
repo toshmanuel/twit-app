@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/twit-app.iml" filepath="$PROJECT_DIR$/.idea/twit-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/account-service/account-service.iml" filepath="$PROJECT_DIR$/account-service/account-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/twit-app.iml" filepath="$PROJECT_DIR$/twit-app.iml" />
     </modules>
   </component>
 </project>
