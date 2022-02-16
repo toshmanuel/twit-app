@@ -4,10 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.twit-app</groupId>
-    <artifactId>twit-app</artifactId>
+    <groupId>com.twitapp</groupId>
+    <artifactId>twitapp</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>account</module>
+    </modules>
 
     <name>twit-app</name>
     <url>https://www.toshmanuel.xyz</url>
