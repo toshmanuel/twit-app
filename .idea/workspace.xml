@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7385ef4f-c3d3-40f2-99c9-006eac5d9467" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_modelmapper_modelmapper_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/twitapp/account/controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/twitapp/account/utils/Beans.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/src/main/resources/application-example.properties" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/resources/application-example.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/account-holder-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/account/account-holder-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/twitapp/account/dto/request/CreateAccountRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/twitapp/account/dto/request/CreateAccountRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/twitapp/account/dto/response/AccountResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/twitapp/account/dto/response/AccountResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/twitapp/account/service/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/twitapp/account/service/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/target/classes/application-example.properties" beforeDir="false" afterPath="$PROJECT_DIR$/account/target/classes/application-example.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/account/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,17 +83,20 @@
       <recent name="$PROJECT_DIR$/.idea" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.twitapp.account.utils" />
       <recent name="com.twitapp.account.model" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.AccountApplication">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,8 +138,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.AccountApplication" />
-        <item itemvalue="Docker.docker-compose.yml.postgres: Compose Deployment" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.postgres: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +160,8 @@
       <workItem from="1645005297295" duration="857000" />
       <workItem from="1645006227044" duration="2778000" />
       <workItem from="1645009585596" duration="4596000" />
-      <workItem from="1645020908296" duration="10397000" />
+      <workItem from="1645020908296" duration="12577000" />
+      <workItem from="1645094281645" duration="825000" />
     </task>
     <servers />
   </component>
