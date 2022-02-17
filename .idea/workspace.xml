@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7385ef4f-c3d3-40f2-99c9-006eac5d9467" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/twitapp/account/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/twitapp/account/service/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/twitapp/account/dto/request/CreateAccountRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/twitapp/account/dto/request/CreateAccountRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/twitapp/account/dto/response/AccountResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/twitapp/account/dto/response/AccountResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/twitapp/account/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/twitapp/account/model/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account/src/main/resources/application-example.properties" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/resources/application-example.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/account/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +149,7 @@
       <workItem from="1645005297295" duration="857000" />
       <workItem from="1645006227044" duration="2778000" />
       <workItem from="1645009585596" duration="4596000" />
-      <workItem from="1645020908296" duration="9722000" />
+      <workItem from="1645020908296" duration="10397000" />
     </task>
     <servers />
   </component>
