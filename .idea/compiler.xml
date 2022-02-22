@@ -9,12 +9,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="account-holder-service" />
         <module name="account" />
+        <module name="tweet" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="account" target="15" />
       <module name="account-holder-service" target="15" />
       <module name="account-service" target="1.5" />
+      <module name="tweet" target="15" />
       <module name="twitapp" target="15" />
     </bytecodeTargetLevel>
   </component>
