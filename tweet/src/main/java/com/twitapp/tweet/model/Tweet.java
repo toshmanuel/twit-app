@@ -5,10 +5,13 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.GeneratedValue;
+import javax.persistence.OneToOne;
+import javax.persistence.GenerationType;
 
-import javax.persistence.*;
 import java.time.LocalDateTime;
-import java.util.Set;
 
 
 @Entity
@@ -21,8 +24,8 @@ public class Tweet {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String content;
-    private Long authorId;
-    private LocalDateTime createdAt;
-    @OneToMany
-    private Set<Tweet> retweet;
+    private Long author;
+    private LocalDateTime createdAt = LocalDateTime.now();
+    @OneToOne
+    private Tweet originalTweet;
 }

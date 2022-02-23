@@ -8,9 +8,12 @@ import lombok.AllArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+import java.util.stream.Collectors;
+
 @Service
 @AllArgsConstructor
-public class AccountServiceImpl implements AccountService{
+public class AccountServiceImpl implements AccountService {
 
     private final AccountRepository accountRepository;
     private final ModelMapper modelMapper;
@@ -24,4 +27,28 @@ public class AccountServiceImpl implements AccountService{
         accountRepository.save(account);
         return modelMapper.map(account, AccountResponse.class);
     }
+
+    @Override
+    public AccountResponse findAccount(Long id) {
+        return accountRepository.findById(id).map(
+                (account) -> new AccountResponse(
+                        account.getName(),
+                        account.getPhone(),
+                        account.getEmail(),
+                        account.getCreatedAt()
+                )).orElseThrow();
+    }
+
+    @Override
+    public List<AccountResponse> getAllAccount() {
+        return accountRepository.findAll().stream().map((account) -> new AccountResponse(
+                        account.getName(),
+                        account.getPhone(),
+                        account.getEmail(),
+                        account.getCreatedAt()
+                )
+        ).collect(Collectors.toList());
+    }
+
+
 }
