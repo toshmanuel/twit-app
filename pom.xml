@@ -11,6 +11,7 @@
     <modules>
         <module>account</module>
         <module>tweet</module>
+        <module>eureka-server</module>
     </modules>
 
     <name>twitapp</name>
