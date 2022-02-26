@@ -1,4 +1,4 @@
-package com.twitapp.account.dto.response;
+package com.twitapp.clients.account;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

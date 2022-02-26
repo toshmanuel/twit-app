@@ -5,14 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7385ef4f-c3d3-40f2-99c9-006eac5d9467" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_10_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/clients.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/main/java/com/twitapp/clients/account/AccountClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/src/main/resources/application-example.properties" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/resources/application-example.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/account-holder-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/account/account-holder-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/twitapp/account/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/twitapp/account/controller/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/twitapp/account/dto/response/AccountResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/com/twitapp/clients/account/AccountResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/twitapp/account/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/twitapp/account/service/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/twitapp/account/service/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/twitapp/account/service/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/account/target/classes/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/target/classes/application-example.properties" beforeDir="false" afterPath="$PROJECT_DIR$/account/target/classes/application-example.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/eureka-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/eureka-server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tweet/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tweet/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tweet/src/main/java/com/twitapp/tweet/TweetApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/tweet/src/main/java/com/twitapp/tweet/TweetApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweet/src/main/resources/application-example.properties" beforeDir="false" afterPath="$PROJECT_DIR$/tweet/src/main/resources/application-example.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweet/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/tweet/target/classes/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweet/target/classes/application-example.properties" beforeDir="false" afterPath="$PROJECT_DIR$/tweet/target/classes/application-example.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tweet/src/main/java/com/twitapp/tweet/dto/response/TweetResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/tweet/src/main/java/com/twitapp/tweet/dto/response/TweetResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tweet/src/main/java/com/twitapp/tweet/service/TweetServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/tweet/src/main/java/com/twitapp/tweet/service/TweetServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tweet/tweet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tweet/tweet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/twitapp.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +47,8 @@
       <list>
         <option value="JpaEntity" />
         <option value="JpaRepository" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -99,6 +122,7 @@
       <recent name="$PROJECT_DIR$/.idea" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.twitapp.clients.account" />
       <recent name="com.twitapp.tweet.util" />
       <recent name="com.twitapp.account.utils" />
       <recent name="com.twitapp.account.model" />
@@ -186,9 +210,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.TweetApplication" />
-        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
-        <item itemvalue="Spring Boot.EurekaServerApplication" />
         <item itemvalue="Spring Boot.AccountApplication" />
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Docker.docker-compose.yml.postgres: Compose Deployment" />
       </list>
     </recent_temporary>
@@ -220,7 +244,9 @@
       <workItem from="1645608052192" duration="11011000" />
       <workItem from="1645693115606" duration="1736000" />
       <workItem from="1645701290519" duration="2432000" />
-      <workItem from="1645743955451" duration="312000" />
+      <workItem from="1645743955451" duration="3165000" />
+      <workItem from="1645749660659" duration="7101000" />
+      <workItem from="1645880875979" duration="7461000" />
     </task>
     <servers />
   </component>

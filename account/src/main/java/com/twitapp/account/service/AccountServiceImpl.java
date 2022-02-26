@@ -1,9 +1,9 @@
 package com.twitapp.account.service;
 
 import com.twitapp.account.dto.request.CreateAccountRequest;
-import com.twitapp.account.dto.response.AccountResponse;
 import com.twitapp.account.model.Account;
 import com.twitapp.account.repository.AccountRepository;
+import com.twitapp.clients.account.AccountResponse;
 import lombok.AllArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;

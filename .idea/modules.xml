@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/account-holder-service/account.iml" filepath="$PROJECT_DIR$/account-holder-service/account.iml" />
       <module fileurl="file://$PROJECT_DIR$/account/account-holder-service.iml" filepath="$PROJECT_DIR$/account/account-holder-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clients/clients.iml" filepath="$PROJECT_DIR$/clients/clients.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/tweet/tweet.iml" filepath="$PROJECT_DIR$/tweet/tweet.iml" />
       <module fileurl="file://$PROJECT_DIR$/twitapp.iml" filepath="$PROJECT_DIR$/twitapp.iml" />

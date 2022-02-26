@@ -1,7 +1,7 @@
 package com.twitapp.account.service;
 
 import com.twitapp.account.dto.request.CreateAccountRequest;
-import com.twitapp.account.dto.response.AccountResponse;
+import com.twitapp.clients.account.AccountResponse;
 
 import java.util.List;
 

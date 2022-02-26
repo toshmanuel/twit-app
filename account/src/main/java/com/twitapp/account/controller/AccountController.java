@@ -20,7 +20,9 @@ public class AccountController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<?> findAccount(@PathVariable Long id){
+    public ResponseEntity<?> findAccount(@PathVariable(value = "id") Long id){
+
+        System.out.println("I think I was called");
         return new ResponseEntity<>(accountService.findAccount(id), HttpStatus.OK);
     }
 

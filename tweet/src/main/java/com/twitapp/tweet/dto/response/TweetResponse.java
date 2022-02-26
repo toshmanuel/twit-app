@@ -1,5 +1,6 @@
 package com.twitapp.tweet.dto.response;
 
+import com.twitapp.clients.account.AccountResponse;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 import lombok.Getter;
@@ -16,6 +17,6 @@ import java.time.LocalDateTime;
 public class TweetResponse {
     private Long id;
     private String content;
-    private Long author;
+    private AccountResponse accountResponse;
     private LocalDateTime createdAt;
 }
