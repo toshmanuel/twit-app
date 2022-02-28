@@ -4,10 +4,13 @@ import com.twitapp.account.dto.request.CreateAccountRequest;
 import com.twitapp.account.model.Account;
 import com.twitapp.account.repository.AccountRepository;
 import com.twitapp.clients.account.AccountResponse;
+import com.twitapp.clients.notification.NotificationClient;
+import com.twitapp.clients.notification.NotificationRequest;
 import lombok.AllArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 
+import javax.management.Notification;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -17,6 +20,7 @@ public class AccountServiceImpl implements AccountService {
 
     private final AccountRepository accountRepository;
     private final ModelMapper modelMapper;
+    private final NotificationClient notificationClient;
 
     @Override
     public AccountResponse createAccount(CreateAccountRequest request) {
@@ -24,8 +28,11 @@ public class AccountServiceImpl implements AccountService {
         // TODO: check if phone number, email, and username does not exists
         Account account = modelMapper.map(request, Account.class);
         System.out.println();
-        accountRepository.save(account);
-        return modelMapper.map(account, AccountResponse.class);
+        Account savedAccount = accountRepository.save(account);
+        notificationClient.sendNotification(
+                new NotificationRequest("", savedAccount.getId())
+        );
+        return modelMapper.map(savedAccount, AccountResponse.class);
     }
 
     @Override

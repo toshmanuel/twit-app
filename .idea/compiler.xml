@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="notification" />
         <module name="tweet" />
         <module name="clients" />
         <module name="account-holder-service" />
@@ -20,6 +21,7 @@
       <module name="account-service" target="1.5" />
       <module name="clients" target="15" />
       <module name="eureka-server" target="15" />
+      <module name="notification" target="15" />
       <module name="tweet" target="15" />
       <module name="twitapp" target="15" />
     </bytecodeTargetLevel>
