@@ -10,7 +10,6 @@ import lombok.AllArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 
-import javax.management.Notification;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -30,7 +29,7 @@ public class AccountServiceImpl implements AccountService {
         System.out.println();
         Account savedAccount = accountRepository.save(account);
         notificationClient.sendNotification(
-                new NotificationRequest("", savedAccount.getId())
+                new NotificationRequest("Kindly check you mail for new notification", savedAccount.getId())
         );
         return modelMapper.map(savedAccount, AccountResponse.class);
     }

@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7385ef4f-c3d3-40f2-99c9-006eac5d9467" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/account-holder-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/account/account-holder-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweet/tweet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tweet/tweet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/twitapp/account/AccountApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/twitapp/account/AccountApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/twitapp/account/service/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/twitapp/account/service/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/twitapp/account/utils/Beans.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/clients.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clients/clients.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clients/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/eureka-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/eureka-server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/notification.iml" beforeDir="false" afterPath="$PROJECT_DIR$/notification/notification.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/main/java/com/twitapp/notification/util/Beans.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/com/twitapp/clients/util/Beans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/target/classes/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notification/target/classes/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tweet/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/tweet/target/classes/application-dev.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +59,7 @@
         <entry key="JPA Inspector" value="false" />
         <entry key="JPA Palette" value="false" />
         <entry key="JPA Structure" value="false" />
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
@@ -75,16 +83,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="15" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tweet/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -92,21 +100,21 @@
       <recent name="com.twitapp.tweet.dto.response" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/notification/src/main/resources" />
       <recent name="$PROJECT_DIR$/tweet/src/main/resources" />
+      <recent name="$PROJECT_DIR$/account/src/main/resources" />
+      <recent name="$PROJECT_DIR$/notification/src/main/resources" />
       <recent name="$PROJECT_DIR$/tweet/src/main/java/com/twitapp/tweet/dto" />
       <recent name="$PROJECT_DIR$/tweet/src/main/java/com/twitapp/tweet" />
-      <recent name="$PROJECT_DIR$/tweet/src/main/java/com/twitapp/tweet/model" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/.idea" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.twitapp.clients.util" />
+      <recent name="com.twitapp.notification.util" />
       <recent name="com.twitapp.clients.notification" />
       <recent name="com.twitapp.clients.account" />
       <recent name="com.twitapp.tweet.util" />
-      <recent name="com.twitapp.account.utils" />
-      <recent name="com.twitapp.account.model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -116,7 +124,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment (1)">
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -156,6 +164,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NotificationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="notification" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.twitapp.notification.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twitapp.notification.NotificationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TweetApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="tweet" />
       <extension name="coverage">
@@ -169,7 +190,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="docker-compose.yml: Compose Deployment (1)" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
           <option name="envFilePath" value="" />
@@ -178,21 +199,20 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="sourceFilePath" value="docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
+    <list>
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      <item itemvalue="Spring Boot.AccountApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.TweetApplication" />
+      <item itemvalue="Spring Boot.NotificationApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Spring Boot.AccountApplication" />
+        <item itemvalue="Spring Boot.NotificationApplication" />
         <item itemvalue="Spring Boot.TweetApplication" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
-        <item itemvalue="Spring Boot.AccountApplication" />
-        <item itemvalue="Docker.docker-compose.yml: Compose Deployment (1)" />
-        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -229,11 +249,31 @@
       <workItem from="1646010859427" duration="3265000" />
       <workItem from="1646128389853" duration="3406000" />
       <workItem from="1646133841793" duration="389000" />
-      <workItem from="1646134265264" duration="983000" />
+      <workItem from="1646134265264" duration="1328000" />
+      <workItem from="1646137610453" duration="2138000" />
+      <workItem from="1646143981589" duration="4185000" />
+      <workItem from="1646169266350" duration="2412000" />
+      <workItem from="1646194780362" duration="2288000" />
+      <workItem from="1646210990636" duration="3431000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

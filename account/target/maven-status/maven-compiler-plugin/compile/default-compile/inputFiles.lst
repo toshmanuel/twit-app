@@ -1,0 +1,8 @@
+/home/toshmanuel/Desktop/twit-app/account/src/main/java/com/twitapp/account/dto/request/CreateAccountRequest.java
+/home/toshmanuel/Desktop/twit-app/account/src/main/java/com/twitapp/account/repository/AccountRepository.java
+/home/toshmanuel/Desktop/twit-app/account/src/main/java/com/twitapp/account/AccountApplication.java
+/home/toshmanuel/Desktop/twit-app/account/src/main/java/com/twitapp/account/service/AccountServiceImpl.java
+/home/toshmanuel/Desktop/twit-app/account/src/main/java/com/twitapp/account/utils/Beans.java
+/home/toshmanuel/Desktop/twit-app/account/src/main/java/com/twitapp/account/service/AccountService.java
+/home/toshmanuel/Desktop/twit-app/account/src/main/java/com/twitapp/account/controller/AccountController.java
+/home/toshmanuel/Desktop/twit-app/account/src/main/java/com/twitapp/account/model/Account.java
