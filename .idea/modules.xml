@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/account-holder-service/account.iml" filepath="$PROJECT_DIR$/account-holder-service/account.iml" />
       <module fileurl="file://$PROJECT_DIR$/account/account-holder-service.iml" filepath="$PROJECT_DIR$/account/account-holder-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/advancemqp/advancemqp.iml" filepath="$PROJECT_DIR$/advancemqp/advancemqp.iml" />
       <module fileurl="file://$PROJECT_DIR$/apigateway/apigateway.iml" filepath="$PROJECT_DIR$/apigateway/apigateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/clients/clients.iml" filepath="$PROJECT_DIR$/clients/clients.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
