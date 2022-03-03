@@ -7,9 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="apigateway" />
         <module name="notification" />
-        <module name="tweet" />
         <module name="clients" />
+        <module name="tweet" />
         <module name="account-holder-service" />
         <module name="eureka-server" />
         <module name="account" />
@@ -19,6 +20,7 @@
       <module name="account" target="15" />
       <module name="account-holder-service" target="15" />
       <module name="account-service" target="1.5" />
+      <module name="apigateway" target="15" />
       <module name="clients" target="15" />
       <module name="eureka-server" target="15" />
       <module name="notification" target="15" />

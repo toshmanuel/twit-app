@@ -1,0 +1,28 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: apigateway
+
+  zipkin:
+    base-url: http://localhost:9411
+  cloud:
+    gateway:
+      routes:
+        - id: account
+          uri: lb://ACCOUNT
+          predicates:
+            - Path=/api/v1/accounts/**
+        - id: tweet
+          uri: lb://TWEET
+          predicates:
+            - Path=/api/v1/tweets/**
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    fetch-registry: true
+    register-with-eureka: true
